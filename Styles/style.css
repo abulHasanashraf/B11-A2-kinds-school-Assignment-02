@@ -16,9 +16,16 @@ header{
     max-width: 1440px;
     margin: 0 auto;
 }
-main{
+main > .curriculum-container{
     max-width: 1440px;
     margin: 0 auto;
+}
+main > article > .our-stories {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+footer{
+    background-color: #01ACFD;
 }
 
 /* Navigation Section styles */
@@ -100,8 +107,7 @@ main{
     background-image: url("../assets/bg.png");
     padding: 60px 0;
     margin: 80px 0;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
 }
 .standard-title{
     font-size: 2.875rem;
@@ -157,7 +163,106 @@ main{
     font-weight: 700;
 }
 
+.side-arrow-icon-container{
+    margin-top: 80px;
+    text-align: center;
+}
+.arrow-icon{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: #FEA301;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
 
+/* Our Stories section style */
+article{
+    padding: 60px 0px 60px 0px;
+    background: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+
+.long-story{
+    width: 40%;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.short-story-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.long-story{
+    background-color: white;
+}
+.long-story-contant{
+    padding: 40px;
+}
+.long-story img{
+    width: 100%;
+}
+.long-story-title{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+/* Footer section styles */
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.kids-edu-contant{
+    align-items: center;
+}
+.kids-title{
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: white;
+}
+.kids-discription{
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 20px;
+}
+.about-container > h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.about-container > ul > li {
+    list-style: none;
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 20px;
+}
+.social-container > h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: self-start;
+    justify-items: self-end;
+
+}
 
 /* Shered Style */
 .disply-flex{
@@ -208,13 +313,17 @@ main{
 .display-hidden{
     display: none !important;
 }
+.hide{
+    display: none;
+}
 
 /* Responsive for mobile */
 @media screen and (max-width: 576px) {
     /* Nav section */
     .nav-logo-title,
     .nav-container,
-    .btn-primary{
+    .btn-primary,
+    .side-arrow-icon-container{
         display: none;
     }
     .navigation{
@@ -230,7 +339,8 @@ main{
         flex-direction: column-reverse;
     }
     .banner-container,
-    .curriculum-container{
+    .curriculum-container,
+    .card-container{
         margin: 20px;
     }
     .banner-contant{
@@ -242,6 +352,16 @@ main{
     }
     .banner-image-container img {
         width: 100%;
+    }
+
+
+    /* footer section responsive */
+    .footer-container{
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        justify-items: flex-start;
+        gap: 40px;
+        margin: 20px;
     }
 
 
