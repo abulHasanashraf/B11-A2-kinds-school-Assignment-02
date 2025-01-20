@@ -5,3 +5,87 @@
     font-weight: 400;
     font-style: normal;
   }
+
+/* page style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Navigation Section styles */
+.navigation{
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.nav-bar{
+    gap: 32px;
+    align-items: center;
+}
+.nav-bar > li{
+    list-style: none;
+}
+.nav-bar > li > a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-logo-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111111;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+/* Nav links color */
+.nav-inks-1{
+    color: #FEA301;
+}
+.nav-inks-2{
+    color: #01ACFD;
+}
+.nav-inks-3{
+    color: #05D4DF;
+}
+.nav-inks-4{
+    color: #5D58EF;
+}
+
+
+/* Marquee section style */
+.marquee{
+    padding: 20px 0;
+    background-color: #FFF4DC;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+
+/* Shered Style */
+.disply-flex{
+    display: flex;
+}
+
+.btn-primary{
+    padding: 10px 30px;
+    background-color: #FEA301;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
