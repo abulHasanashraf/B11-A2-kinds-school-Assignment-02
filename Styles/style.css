@@ -89,3 +89,27 @@ header{
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
 }
+
+/* hidden disply */
+.display-hidden{
+    display: none !important;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 576px) {
+    /* Nav section */
+    .nav-logo-title,
+    .nav-container,
+    .btn-primary{
+        display: none;
+    }
+    .navigation{
+        border-bottom: 1px solid #FEA301;
+        margin-bottom: 20px;
+    }
+    .display-hidden{
+        display: block !important;
+        margin-right: 20px;
+        font-size: 2rem;
+    }
+}
