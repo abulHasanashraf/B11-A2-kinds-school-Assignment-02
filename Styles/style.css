@@ -196,9 +196,15 @@ article{
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
+.stories-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
 .short-story-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 .long-story{
     background-color: white;
@@ -208,12 +214,68 @@ article{
 }
 .long-story img{
     width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.story{
+    background-color: white;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.story img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 .long-story-title{
     font-size: 1.5rem;
 }
+.story-contant{
+    padding: 40px;
+}
 
-
+/* Date-btn challenge */
+.date{
+    padding: 15px 20px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #95B226;
+    border-radius: 47px;
+    -webkit-border-radius: 47px;
+    -moz-border-radius: 47px;
+    -ms-border-radius: 47px;
+    -o-border-radius: 47px;
+}
+.date{
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+}
+.date-long{
+    position: relative;
+    background-color: #3CD8E8;
+    left: 15px;
+    bottom: 70px;
+}
+.date-2nd{
+    background-color: #5D58F0;
+}
+.long-discription{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #666666;
+    margin-top: 60px;
+}
+.story-contant h5{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
 
 
 
@@ -323,7 +385,8 @@ article{
     .nav-logo-title,
     .nav-container,
     .btn-primary,
-    .side-arrow-icon-container{
+    .side-arrow-icon-container,
+    .long-story{
         display: none;
     }
     .navigation{
@@ -340,7 +403,8 @@ article{
     }
     .banner-container,
     .curriculum-container,
-    .card-container{
+    .card-container,
+    .stories-container{
         margin: 20px;
     }
     .banner-contant{
@@ -352,6 +416,23 @@ article{
     }
     .banner-image-container img {
         width: 100%;
+    }
+    .short-story-container{
+        gap: 10px;
+    }
+
+    .story-contant{
+        padding: 20px;
+    }
+    .date {
+        padding: 10px 15px;
+        font-size: 0.5rem;
+        position: relative;
+        left: -10px;
+        bottom: 40px;
+    }
+    .story-contant > h5 {
+        font-size: 0.6rem;
     }
 
 
