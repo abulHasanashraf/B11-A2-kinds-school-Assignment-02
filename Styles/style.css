@@ -1,77 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .quicksand-regular {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 /* page style */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     max-width: 1440px;
     margin: 0 auto;
 }
-main > .curriculum-container{
+
+main>.curriculum-container {
     max-width: 1440px;
     margin: 0 auto;
 }
-main > article > .our-stories {
+
+main>article>.our-stories {
     max-width: 1440px;
     margin: 0 auto;
 }
-footer{
+
+footer {
     background-color: #01ACFD;
 }
 
 /* Navigation Section styles */
-.navigation{
+.navigation {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
 }
-.nav-bar{
+
+.nav-bar {
     gap: 32px;
     align-items: center;
 }
-.nav-bar > li{
+
+.nav-bar>li {
     list-style: none;
 }
-.nav-bar > li > a {
+
+.nav-bar>li>a {
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 500;
 }
-.nav-logo-title{
+
+.nav-logo-title {
     font-size: 2rem;
     font-weight: 700;
     color: #111111;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     align-items: center;
 }
+
 /* Nav links color */
-.nav-inks-1{
+.nav-inks-1 {
     color: #FEA301;
 }
-.nav-inks-2{
+
+.nav-inks-2 {
     color: #01ACFD;
 }
-.nav-inks-3{
+
+.nav-inks-3 {
     color: #05D4DF;
 }
-.nav-inks-4{
+
+.nav-inks-4 {
     color: #5D58EF;
 }
 
 
 /* Marquee section style */
-.marquee{
+.marquee {
     padding: 20px 0;
     background-color: #FFF4DC;
     font-size: 1.5rem;
@@ -79,50 +93,58 @@ footer{
 }
 
 /* Banner section style */
-.banner-container{
+.banner-container {
     align-items: center;
     justify-content: space-between;
     gap: 50px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 3.5rem;
     font-weight: 700;
 }
-.orrange{
+
+.orrange {
     color: #FEA301;
 }
-.blue{
+
+.blue {
     color: #01ACFD;
 }
-.banner-discription{
+
+.banner-discription {
     font-size: 1.25rem;
     margin: 24px 0;
 }
-.banner-contant{
+
+.banner-contant {
     max-width: 50%;
 }
 
 /* Standard Curriculum section style */
-.curriculum-container{
+.curriculum-container {
     background-image: url("../assets/bg.png");
     padding: 60px 0;
     margin: 80px 0;
     background-size: contain;
 }
-.standard-title{
+
+.standard-title {
     font-size: 2.875rem;
     font-weight: 700;
     text-align: center;
     margin: 50px 0;
 }
-.card-container{
+
+.card-container {
     display: flex;
     gap: 24px;
     align-items: center;
     text-align: center;
 }
-.card-item{
-    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+.card-item {
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -136,38 +158,45 @@ footer{
     -ms-border-radius: 18px;
     -o-border-radius: 18px;
 }
-.kinder{
+
+.kinder {
     border: 1px solid rgb(222, 245, 255);
 }
-.elementary{
-    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+.elementary {
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     border: 1px solid rgb(255, 244, 220);
 }
-.middle{
-    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+.middle {
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     border: 1px solid rgb(238, 225, 255);
 }
-.card-title{
+
+.card-title {
     font-size: 1.5rem;
     font-weight: 700;
     color: #202020;
 }
-.card-discription{
+
+.card-discription {
     font-size: 1rem;
     font-weight: 500;
     color: #808080;
 }
-.read-more{
+
+.read-more {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
 }
 
-.side-arrow-icon-container{
+.side-arrow-icon-container {
     margin-top: 80px;
     text-align: center;
 }
-.arrow-icon{
+
+.arrow-icon {
     width: 60px;
     height: 60px;
     padding: 20px;
@@ -183,12 +212,12 @@ footer{
 }
 
 /* Our Stories section style */
-article{
+article {
     padding: 60px 0px 60px 0px;
-    background: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background: url("../assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
 
-.long-story{
+.long-story {
     width: 40%;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -196,28 +225,34 @@ article{
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
-.stories-container{
+
+.stories-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.short-story-container{
+
+.short-story-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.long-story{
+
+.long-story {
     background-color: white;
 }
-.long-story-contant{
+
+.long-story-contant {
     padding: 40px;
 }
-.long-story img{
+
+.long-story img {
     width: 100%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
-.story{
+
+.story {
     background-color: white;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -225,20 +260,23 @@ article{
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
-.story img{
+
+.story img {
     width: 100%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
-.long-story-title{
+
+.long-story-title {
     font-size: 1.5rem;
 }
-.story-contant{
+
+.story-contant {
     padding: 40px;
 }
 
 /* Date-btn challenge */
-.date{
+.date {
     padding: 15px 20px;
     border: none;
     color: #FFFFFF;
@@ -251,90 +289,101 @@ article{
     -ms-border-radius: 47px;
     -o-border-radius: 47px;
 }
-.date{
+
+.date {
     position: relative;
     left: 20px;
     bottom: 70px;
 }
-.date-long{
+
+.date-long {
     position: relative;
     background-color: #3CD8E8;
     left: 15px;
     bottom: 70px;
 }
-.date-2nd{
+
+.date-2nd {
     background-color: #5D58F0;
 }
-.long-discription{
+
+.long-discription {
     font-weight: 500;
     font-size: 1rem;
     color: #666666;
     margin-top: 60px;
 }
-.story-contant h5{
+
+.story-contant h5 {
     font-size: 1rem;
     font-weight: 700;
     color: #000000;
 }
 
-.view-all-btn{
-    margin: 80px 0 60px 0 ;
+.view-all-btn {
+    margin: 80px 0 60px 0;
     text-align: center;
 }
 
 
 /* Footer section styles */
-.footer{
+.footer {
     max-width: 1440px;
     margin: 0 auto;
     padding: 120px 0;
 }
 
-.kids-edu-contant{
+.kids-edu-contant {
     align-items: center;
 }
-.kids-title{
+
+.kids-title {
     font-size: 2.625rem;
     font-weight: 700;
     color: white;
 }
-.kids-discription{
+
+.kids-discription {
     font-size: 1.25rem;
     color: white;
     margin-top: 20px;
 }
-.about-container > h4 {
+
+.about-container>h4 {
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
 }
 
-.about-container > ul > li {
+.about-container>ul>li {
     list-style: none;
     font-size: 1.25rem;
     color: white;
     margin-top: 20px;
 }
-.social-container > h3 {
+
+.social-container>h3 {
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
     margin-bottom: 25px;
 }
-.footer-container{
+
+.footer-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: self-start;
     justify-items: self-end;
 
 }
 
 /* Shered Style */
-.disply-flex{
+.disply-flex {
     display: flex;
     color: #111111;
 }
-.btn-secoundary{
+
+.btn-secoundary {
     background-color: black;
     padding: 15px 30px;
     color: white;
@@ -348,7 +397,7 @@ article{
     -o-border-radius: 12px;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 10px 30px;
     background-color: #FEA301;
     font-size: 1.25rem;
@@ -363,70 +412,83 @@ article{
     -o-border-radius: 12px;
 }
 
-.sky-blue{
+.sky-blue {
     color: #64C8FF;
 }
-.yeallow{
+
+.yeallow {
     color: #F0AA00;
 }
-.perple{
+
+.perple {
     color: #8700FF;
 }
 
 
 /* hidden disply */
-.display-hidden{
+.display-hidden {
     display: none !important;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
 /* Responsive for mobile */
 @media screen and (max-width: 576px) {
+
     /* Nav section */
     .nav-logo-title,
     .nav-container,
     .btn-primary,
     .side-arrow-icon-container,
-    .long-story{
+    .long-story {
         display: none;
     }
-    .navigation{
+
+    .navigation {
         border-bottom: 1px solid #FEA301;
         margin-bottom: 20px;
     }
-    .display-hidden{
+
+    .display-hidden {
         display: block !important;
         margin-right: 20px;
         font-size: 2rem;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
     }
+
     .banner-container,
     .curriculum-container,
     .card-container,
-    .stories-container{
+    .stories-container {
         margin: 20px;
     }
-    .banner-contant{
+
+    .banner-contant {
         text-align: center;
         max-width: 100%;
     }
-    .card-container{
+
+    .card-container {
         flex-direction: column;
     }
+
     .banner-image-container img {
         width: 100%;
     }
-    .short-story-container{
+
+    .short-story-container {
         gap: 10px;
     }
 
-    .story-contant{
+    .story-contant {
         padding: 20px;
     }
+
     .date {
         padding: 10px 15px;
         font-size: 0.5rem;
@@ -434,13 +496,14 @@ article{
         left: -10px;
         bottom: 40px;
     }
-    .story-contant > h5 {
+
+    .story-contant>h5 {
         font-size: 0.6rem;
     }
 
 
     /* footer section responsive */
-    .footer-container{
+    .footer-container {
         grid-template-columns: 1fr;
         align-items: flex-start;
         justify-items: flex-start;
@@ -450,13 +513,15 @@ article{
 
 
     /* font responsive */
-    .banner-title{
+    .banner-title {
         font-size: 2rem;
     }
-    .banner-discription{
+
+    .banner-discription {
         font-size: 0.875rem;
     }
-    .standard-title{
+
+    .standard-title {
         font-size: 1.5rem;
     }
 }
